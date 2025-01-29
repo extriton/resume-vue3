@@ -25,7 +25,8 @@ export default {
                 `2021-2021 / ООО ДжусиЛабс / Javascript Developer`,
                 `2021-2023 / Tokenlands, Ltd / Fullstack Developer`,
                 `2023-2024 / Nexdex, Ltd / Front Developer (Nuxt, Capacitor)`,
-                `2024-2024 / Tokenlands, Ltd / Fullstack Developer (Telegram MiniApp)`
+                `2024-2024 / Tokenlands, Ltd / Fullstack Developer (Telegram MiniApp)`,
+                `2024-2025 / Freelance / Fullstack Developer`,
             ]
         },
         new_projects: {
@@ -57,6 +58,13 @@ export default {
     portfolio: {
         title: 'Портфолио',
         projects: [
+            {
+                name: 'Shtuman.club',
+                description: 'Vue 3, Vue-router, Pinia',
+                imageFilename: 'shturman.jpg',
+                link: 'https://demo2044872.atservers.net/',
+                isNew: true
+            },
             {
                 name: 'Miners & Fighters',
                 description: 'Vue 3, Pinia, express, Sequilize, axios, Telegram MiniApps',
@@ -118,7 +126,7 @@ export default {
                 description: 'HTML5, CSS3/SCSS, JS, VueJS, Nuxt.js',
                 imageFilename: 'dice-vue.jpg',
                 link: 'https://dice-s38g.onrender.com',
-                isNew: false
+                isNew: true
             },
             {
                 name: 'SmartLotto',
@@ -174,7 +182,7 @@ export default {
     contacts: {
         title: 'Контакты',
         paragraphs: [
-            'Если вас заинтересовала моя кандидатура просьба связаться со мной по E-mail или Skype.'
+            'Если вас заинтересовала моя кандидатура просьба связаться со мной по E-mail или Telegram.'
         ],
         info: [
             {
@@ -209,7 +217,7 @@ export default {
             },
             {
                 name: 'Download',
-                value: '<a href="/files/резюме_козика_а_м.docx" title="Скачать резюме" download>Andrey Kozik | CV</a>'
+                value: '<a href="/files/cv_kozik_am.doc" title="Скачать резюме" download>Andrey Kozik | CV</a>'
             }
         ]
     },
