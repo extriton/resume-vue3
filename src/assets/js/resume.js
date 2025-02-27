@@ -62,7 +62,7 @@ export default {
                 name: 'Shtuman.club',
                 description: 'Vue 3, Vue-router, Pinia',
                 imageFilename: 'shturman.jpg',
-                link: 'https://demo2044872.atservers.net/',
+                link: 'https://shturman.club/',
                 isNew: true
             },
             {
